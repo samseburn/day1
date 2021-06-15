@@ -21,7 +21,7 @@ $(".candle").on("click mouseenter", function() {
 });
 
 var feeling = feelings[Math.floor(Math.random() * feelings.length)];
-$('<a class="feeling" href="asset/img/image.jpeg" download="image.jpeg">' + feeling + '? </a>').css({
+$('<a>' + feeling + '? </a>').css({
 	'color': "white"
 }).appendTo("h1");
 
